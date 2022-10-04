@@ -41,7 +41,7 @@ section {
 }
 
 .section_header_link:link, .section_header_link:visited {
-    color: #707b7c;
+    color: black;
 }
 
 @media screen and (max-width: 576px) {
