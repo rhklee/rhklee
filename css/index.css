@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+ul {
+    list-style-image: url("../svg/tombstone.svg");
+}
+
 .nav {
     background: #ac9d9a;
     box-shadow: 0 0.5rem black;
@@ -16,6 +20,28 @@ body {
 .main {
     padding-top: 2rem;
     margin: auto 25%;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+.section_header_link {
+    text-decoration: none;
+}
+
+.section_header_link .section_header_title {
+    display: inline;
+}
+
+.section_header_link:hover:after {
+    content: "\00a7";
+    font-size: 1.5rem;
+    padding-left: 0.25rem;
+}
+
+.section_header_link:link, .section_header_link:visited {
+    color: #707b7c;
 }
 
 @media screen and (max-width: 576px) {
