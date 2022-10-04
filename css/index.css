@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    background-color: #fef9e7;
 }
 
 ul {
@@ -8,8 +9,7 @@ ul {
 }
 
 .nav {
-    background: #ac9d9a;
-    box-shadow: 0 0.5rem black;
+    border-bottom: 0.75px solid grey;
 }
 
 .nav_title {
