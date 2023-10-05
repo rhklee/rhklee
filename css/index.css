@@ -8,18 +8,9 @@ ul {
     list-style-image: url("../svg/tombstone.svg");
 }
 
-.nav {
-    border-bottom: 0.75px solid grey;
-}
-
-.nav_title {
-    margin: 0;
-    padding: 0.75rem;
-}
-
 .main {
     padding-top: 2rem;
-    margin: auto 25%;
+    margin: auto 30%;
 }
 
 section {
